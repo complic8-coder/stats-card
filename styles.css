@@ -20,8 +20,7 @@ body {
     font-family: 'Lexend Deca', sans-serif;
 }
 
-h1,
-h2 {
+h1 {
     font-family: 'Inter', sans-serif;
     color: hsl(0, 0%, 100%);
 }
@@ -87,7 +86,11 @@ h1 strong {
 
 .stats .data .value {
     margin-bottom: 6px;
-    font-size: x-large;
+    color: hsl(0, 0%, 100%);
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
     letter-spacing: normal;
     text-transform: none;
 }
